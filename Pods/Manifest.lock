@@ -1,0 +1,34 @@
+PODS:
+  - AFNetworking (2.2.1):
+    - AFNetworking/NSURLConnection (= 2.2.1)
+    - AFNetworking/NSURLSession (= 2.2.1)
+    - AFNetworking/Reachability (= 2.2.1)
+    - AFNetworking/Security (= 2.2.1)
+    - AFNetworking/Serialization (= 2.2.1)
+    - AFNetworking/UIKit (= 2.2.1)
+  - AFNetworking/NSURLConnection (2.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.2.1):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.2.1)
+  - AFNetworking/Security (2.2.1)
+  - AFNetworking/Serialization (2.2.1)
+  - AFNetworking/UIKit (2.2.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - JTHamburgerButton (1.0.5)
+  - JTMaterialTransition (1.0.1)
+
+DEPENDENCIES:
+  - AFNetworking (= 2.2.1)
+  - JTHamburgerButton (~> 1.0)
+  - JTMaterialTransition (~> 1.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: 59a0b8e9ecd4e194d64b4967232cd2cc83490113
+  JTHamburgerButton: 9a41c7d051c72590a9d2c18416d84d1b912f12e3
+  JTMaterialTransition: 7e7a634b017ccec564e88ed02f9791e1eaba2760
+
+COCOAPODS: 0.37.0

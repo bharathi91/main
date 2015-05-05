@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E0C0B301AE771BB00C3839C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C0B2F1AE771BB00C3839C /* main.m */; };
+		6E0C0B331AE771BB00C3839C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C0B321AE771BB00C3839C /* AppDelegate.m */; };
+		6E0C0B361AE771BB00C3839C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C0B351AE771BB00C3839C /* ViewController.m */; };
+		6E0C0B3B1AE771BB00C3839C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E0C0B3A1AE771BB00C3839C /* Images.xcassets */; };
+		6E0C0B4A1AE771BB00C3839C /* RecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C0B491AE771BB00C3839C /* RecorderTests.m */; };
+		6E0C0B551AE7728900C3839C /* Rec_customview.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C0B541AE7728900C3839C /* Rec_customview.m */; };
+		6E0C0B571AE77A6B00C3839C /* recordbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E0C0B561AE77A6A00C3839C /* recordbutton.png */; };
+		80640564252511CB30F4F76C /* libPods-RecorderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C80C17FCF558C6763268885 /* libPods-RecorderTests.a */; };
+		AEBA140BB4386BD26B5E4598 /* libPods-Recorder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66EDF01CA5DD52E482D91794 /* libPods-Recorder.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E0C0B441AE771BB00C3839C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E0C0B221AE771BB00C3839C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E0C0B291AE771BB00C3839C;
+			remoteInfo = Recorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C732790250FB4F995337B8E /* Pods-RecorderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecorderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RecorderTests/Pods-RecorderTests.release.xcconfig"; sourceTree = "<group>"; };
+		1C80C17FCF558C6763268885 /* libPods-RecorderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RecorderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5677270F92AFD8C92140F8ED /* Pods-RecorderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecorderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecorderTests/Pods-RecorderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66EDF01CA5DD52E482D91794 /* libPods-Recorder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Recorder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E0C0B2A1AE771BB00C3839C /* Recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E0C0B2E1AE771BB00C3839C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E0C0B2F1AE771BB00C3839C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E0C0B311AE771BB00C3839C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E0C0B321AE771BB00C3839C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E0C0B341AE771BB00C3839C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E0C0B351AE771BB00C3839C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E0C0B3A1AE771BB00C3839C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6E0C0B431AE771BB00C3839C /* RecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E0C0B481AE771BB00C3839C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E0C0B491AE771BB00C3839C /* RecorderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecorderTests.m; sourceTree = "<group>"; };
+		6E0C0B531AE7728900C3839C /* Rec_customview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rec_customview.h; sourceTree = "<group>"; };
+		6E0C0B541AE7728900C3839C /* Rec_customview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rec_customview.m; sourceTree = "<group>"; };
+		6E0C0B561AE77A6A00C3839C /* recordbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recordbutton.png; sourceTree = "<group>"; };
+		98684616C861FB0492906367 /* Pods-Recorder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recorder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Recorder/Pods-Recorder.debug.xcconfig"; sourceTree = "<group>"; };
+		FAE36477C4CBEDCB4BC1F178 /* Pods-Recorder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recorder.release.xcconfig"; path = "Pods/Target Support Files/Pods-Recorder/Pods-Recorder.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E0C0B271AE771BB00C3839C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEBA140BB4386BD26B5E4598 /* libPods-Recorder.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0C0B401AE771BB00C3839C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80640564252511CB30F4F76C /* libPods-RecorderTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A11A5C13A91531CDA8110E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98684616C861FB0492906367 /* Pods-Recorder.debug.xcconfig */,
+				FAE36477C4CBEDCB4BC1F178 /* Pods-Recorder.release.xcconfig */,
+				5677270F92AFD8C92140F8ED /* Pods-RecorderTests.debug.xcconfig */,
+				0C732790250FB4F995337B8E /* Pods-RecorderTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E0C0B211AE771BB00C3839C = {
+			isa = PBXGroup;
+			children = (
+				6E0C0B2C1AE771BB00C3839C /* Recorder */,
+				6E0C0B461AE771BB00C3839C /* RecorderTests */,
+				6E0C0B2B1AE771BB00C3839C /* Products */,
+				1A11A5C13A91531CDA8110E8 /* Pods */,
+				94A196BE1AB20B632E57199B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E0C0B2B1AE771BB00C3839C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E0C0B2A1AE771BB00C3839C /* Recorder.app */,
+				6E0C0B431AE771BB00C3839C /* RecorderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E0C0B2C1AE771BB00C3839C /* Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				6E0C0B311AE771BB00C3839C /* AppDelegate.h */,
+				6E0C0B321AE771BB00C3839C /* AppDelegate.m */,
+				6E0C0B341AE771BB00C3839C /* ViewController.h */,
+				6E0C0B351AE771BB00C3839C /* ViewController.m */,
+				6E0C0B561AE77A6A00C3839C /* recordbutton.png */,
+				6E0C0B3A1AE771BB00C3839C /* Images.xcassets */,
+				6E0C0B531AE7728900C3839C /* Rec_customview.h */,
+				6E0C0B541AE7728900C3839C /* Rec_customview.m */,
+				6E0C0B2D1AE771BB00C3839C /* Supporting Files */,
+			);
+			path = Recorder;
+			sourceTree = "<group>";
+		};
+		6E0C0B2D1AE771BB00C3839C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E0C0B2E1AE771BB00C3839C /* Info.plist */,
+				6E0C0B2F1AE771BB00C3839C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E0C0B461AE771BB00C3839C /* RecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E0C0B491AE771BB00C3839C /* RecorderTests.m */,
+				6E0C0B471AE771BB00C3839C /* Supporting Files */,
+			);
+			path = RecorderTests;
+			sourceTree = "<group>";
+		};
+		6E0C0B471AE771BB00C3839C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E0C0B481AE771BB00C3839C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94A196BE1AB20B632E57199B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66EDF01CA5DD52E482D91794 /* libPods-Recorder.a */,
+				1C80C17FCF558C6763268885 /* libPods-RecorderTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E0C0B291AE771BB00C3839C /* Recorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E0C0B4D1AE771BC00C3839C /* Build configuration list for PBXNativeTarget "Recorder" */;
+			buildPhases = (
+				A68A5F918A0F093BCFFE98B3 /* Check Pods Manifest.lock */,
+				6E0C0B261AE771BB00C3839C /* Sources */,
+				6E0C0B271AE771BB00C3839C /* Frameworks */,
+				6E0C0B281AE771BB00C3839C /* Resources */,
+				0AB02C39E458075F09431998 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recorder;
+			productName = Recorder;
+			productReference = 6E0C0B2A1AE771BB00C3839C /* Recorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E0C0B421AE771BB00C3839C /* RecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E0C0B501AE771BC00C3839C /* Build configuration list for PBXNativeTarget "RecorderTests" */;
+			buildPhases = (
+				316FE57B1E5B31F0B6BE0D59 /* Check Pods Manifest.lock */,
+				6E0C0B3F1AE771BB00C3839C /* Sources */,
+				6E0C0B401AE771BB00C3839C /* Frameworks */,
+				6E0C0B411AE771BB00C3839C /* Resources */,
+				39B7F9210D32E1A56E943167 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E0C0B451AE771BB00C3839C /* PBXTargetDependency */,
+			);
+			name = RecorderTests;
+			productName = RecorderTests;
+			productReference = 6E0C0B431AE771BB00C3839C /* RecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E0C0B221AE771BB00C3839C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = own;
+				TargetAttributes = {
+					6E0C0B291AE771BB00C3839C = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					6E0C0B421AE771BB00C3839C = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 6E0C0B291AE771BB00C3839C;
+					};
+				};
+			};
+			buildConfigurationList = 6E0C0B251AE771BB00C3839C /* Build configuration list for PBXProject "Recorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E0C0B211AE771BB00C3839C;
+			productRefGroup = 6E0C0B2B1AE771BB00C3839C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E0C0B291AE771BB00C3839C /* Recorder */,
+				6E0C0B421AE771BB00C3839C /* RecorderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E0C0B281AE771BB00C3839C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0C0B571AE77A6B00C3839C /* recordbutton.png in Resources */,
+				6E0C0B3B1AE771BB00C3839C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0C0B411AE771BB00C3839C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AB02C39E458075F09431998 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Recorder/Pods-Recorder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		316FE57B1E5B31F0B6BE0D59 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		39B7F9210D32E1A56E943167 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RecorderTests/Pods-RecorderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A68A5F918A0F093BCFFE98B3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E0C0B261AE771BB00C3839C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0C0B361AE771BB00C3839C /* ViewController.m in Sources */,
+				6E0C0B551AE7728900C3839C /* Rec_customview.m in Sources */,
+				6E0C0B331AE771BB00C3839C /* AppDelegate.m in Sources */,
+				6E0C0B301AE771BB00C3839C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0C0B3F1AE771BB00C3839C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0C0B4A1AE771BB00C3839C /* RecorderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E0C0B451AE771BB00C3839C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E0C0B291AE771BB00C3839C /* Recorder */;
+			targetProxy = 6E0C0B441AE771BB00C3839C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6E0C0B4B1AE771BC00C3839C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E0C0B4C1AE771BC00C3839C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E0C0B4E1AE771BC00C3839C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98684616C861FB0492906367 /* Pods-Recorder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Recorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6E0C0B4F1AE771BC00C3839C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAE36477C4CBEDCB4BC1F178 /* Pods-Recorder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Recorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6E0C0B511AE771BC00C3839C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5677270F92AFD8C92140F8ED /* Pods-RecorderTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recorder.app/Recorder";
+			};
+			name = Debug;
+		};
+		6E0C0B521AE771BC00C3839C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C732790250FB4F995337B8E /* Pods-RecorderTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recorder.app/Recorder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E0C0B251AE771BB00C3839C /* Build configuration list for PBXProject "Recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0C0B4B1AE771BC00C3839C /* Debug */,
+				6E0C0B4C1AE771BC00C3839C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E0C0B4D1AE771BC00C3839C /* Build configuration list for PBXNativeTarget "Recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0C0B4E1AE771BC00C3839C /* Debug */,
+				6E0C0B4F1AE771BC00C3839C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E0C0B501AE771BC00C3839C /* Build configuration list for PBXNativeTarget "RecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0C0B511AE771BC00C3839C /* Debug */,
+				6E0C0B521AE771BC00C3839C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E0C0B221AE771BB00C3839C /* Project object */;
+}
